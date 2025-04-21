@@ -180,7 +180,7 @@ def main():
     bst.print()
     if bst.root.val:
         print(bst.root.val)
-    print(bst.pred(bst.max().val).val)
+    print(bst.min().val)
 
 
 if __name__ == "__main__":

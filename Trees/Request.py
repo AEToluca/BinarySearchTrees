@@ -20,5 +20,5 @@ class Request:
             self.airline = None
 
     def __str__(self):
-        return f"{self.command} {self.time} {self.airline}"
+        return f"{self.airline}"
                    
